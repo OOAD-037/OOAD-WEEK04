@@ -18,9 +18,8 @@
     static int Main()
     {
         Exercise exo = new Exercise();
-        exo.ShowEmployee(572948, "Sompong Jaidee", "M", 450.00D);
-        exo.ShowEmployee(572948, "Sompong Jaidee", "M");
-        exo.ShowEmployee(572948, "Sompong Jaidee");
+        exo.ShowEmployee(fullName: "Somsri Jaiorn", gender: "F", employeeNumber: 84654);
+        exo.ShowEmployee(fullName: "Somsri Jaiorn", gender: "F", employeeNumber: 84654);
         System.Console.ReadKey();
         return 0;
     }
