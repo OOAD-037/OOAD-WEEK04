@@ -1,6 +1,6 @@
 ﻿class Exercise
 {
-    void ShowEmployee(int employeeNumber, string fullName, string gender, double hourlySalary)
+    void ShowEmployee(int employeeNumber, string fullName, string gender, double hourlySalary=500.00D)
     {
         System.Console.WriteLine("Employee Record");
         System.Console.WriteLine("-----------------------------");
@@ -19,6 +19,8 @@
     {
         Exercise exo = new Exercise();
         exo.ShowEmployee(572948, "Sompong Jaidee", "M", 450.00D);
+        exo.ShowEmployee(572948, "Sompong Jaidee", "M");
+        exo.ShowEmployee(572948, "Sompong Jaidee");
         System.Console.ReadKey();
         return 0;
     }
