@@ -19,8 +19,8 @@
     {
         Exercise exo = new Exercise();
         exo.ShowEmployee(572948, "Sompong Jaidee", "M", 450.00D);
-        exo.ShowEmployee(572948, "Sompong Jaidee", "M");
-        exo.ShowEmployee(572948, "Sompong Jaidee");
+        exo.ShowEmployee(572948, "Somchai Jaided", "M");
+        exo.ShowEmployee(572948, "Sommai Jaisoo");
         System.Console.ReadKey();
         return 0;
     }
